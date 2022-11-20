@@ -1,2 +1,11 @@
 # Animal-Quiz
-Projeto A3 referente a Unidade Curricular Usabilidade, Desenvolvimento Web, Mobile e Jogos. Aplicação Mobile Animal Quiz.
+Projeto A3 referente a Unidade Curricular Usabilidade, Desenvolvimento Web, Mobile e Jogos. 
+Aplicação Mobile Animal Quiz - UNIVERSIDADE ANHEMBI MORUMBI
+
+GUILHERME GUARDÃO DE ALMEIDA GOMES – RA: 125111365939
+GUSTAVO ALBUQUERQUE DA SILVA LIRA – RA: 125111367978
+JENIFFER ALMEIDA MONTEIRO – RA: 125111352633
+MILENE ROSA DE CARVALHO DOS SANTOS – RA: 12522128067
+THIAGO PEREIRA ALVES – RA: 125111360054
+VINICIUS NOBRE DE SOUZA – RA: 125111350357
+

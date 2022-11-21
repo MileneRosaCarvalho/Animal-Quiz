@@ -8,6 +8,7 @@ class Game extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
+    
     return _GameState();
   }
 }
@@ -76,6 +77,7 @@ class _GameState extends State<Game> {
 
   void _restart() {
     setState(() {
+      //Ao chamar o método setState(), nosso widget será reconstruído já com o novo valor da variável
       _indexQuestion = 0;
       _totalScore = 0;
     });

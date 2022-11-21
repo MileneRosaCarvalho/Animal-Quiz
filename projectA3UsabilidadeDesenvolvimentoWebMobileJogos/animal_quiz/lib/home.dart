@@ -9,18 +9,19 @@ import 'future.dart';
 class Homepage extends StatelessWidget {
   const Homepage({Key? key}) : super(key: key);
 
-  get answerQuestion => null;
-  get data => List<Map<String, Object>>;
-  get indexQuestion => null;
-
   @override
   Widget build(BuildContext context) {
+    //Um identificador para a localização de um widget na árvore de widgets.
     return MaterialApp(
+      //O MaterialApp é um widget de conveniência que envolve vários widgets
       theme: ThemeData(primarySwatch: Colors.green),
       home: Scaffold(
+        //Um widget responsável por criar um layout “padrão” para o app, contendo uma appBar e o conteúdo da tela.
         appBar: AppBar(
+          //Uma barra de aplicativos do Material Design.
           title: Center(
             child: Text('Animal Quiz'),
+            //A criança contida pelo contêiner.
           ),
         ),
         body: Center(

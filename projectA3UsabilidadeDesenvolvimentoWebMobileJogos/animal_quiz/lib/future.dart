@@ -27,6 +27,7 @@ class MinhaPaginaPrincipal extends StatefulWidget {
 
   @override
   State<MinhaPaginaPrincipal> createState() => _MinhaPaginaPrincipalState();
+  //Cria o estado mutável para este widget em um determinado local na árvore.
 }
 
 class _MinhaPaginaPrincipalState extends State<MinhaPaginaPrincipal> {
@@ -66,8 +67,16 @@ class _MinhaPaginaPrincipalState extends State<MinhaPaginaPrincipal> {
         ));
   }
 
+  //Future determina que uma função irá retornar algo no “futuro”, ou seja, é uma função que levará um tempo até ser finalizada.
   Future lerEscreverPreferencias() async {
+    //determina que um método será assíncrono, ou seja, não irá retornar algo imediatamente,
+    //então o aplicativo pode continuar a execução de outras tarefas enquanto o processamento não é finalizado.
+
+    //Envolve o armazenamento persistente específico da plataforma para dados simples,Os dados podem ser mantidos no disco de forma assíncrona
+
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    //serve para determinar que o aplicativo deve esperar uma resposta de uma função antes de continuar a execução.
+    //Isso é muito importante pois há casos em que uma função depende do retorno de outra.
 
     int? valorSalvo = prefs.getInt('contadorApp');
     if (valorSalvo == null) {

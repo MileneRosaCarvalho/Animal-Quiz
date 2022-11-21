@@ -2,6 +2,8 @@
 Projeto A3 referente a Unidade Curricular Usabilidade, Desenvolvimento Web, Mobile e Jogos. 
 Aplicação Mobile Animal Quiz - UNIVERSIDADE ANHEMBI MORUMBI
 
+Recomenda-se executar o Visual Studio Code com o nível de acesso Administrador
+
 GUILHERME GUARDÃO DE ALMEIDA GOMES – RA: 125111365939
 GUSTAVO ALBUQUERQUE DA SILVA LIRA – RA: 125111367978
 JENIFFER ALMEIDA MONTEIRO – RA: 125111352633

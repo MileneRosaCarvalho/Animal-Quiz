@@ -7,6 +7,7 @@ import 'future.dart';
 class Result extends StatelessWidget {
   final double resultScore;
   final VoidCallback resetHandler;
+  //Assinatura de callbacks que não possuem argumentos e não retornam dados.
 
   const Result(this.resultScore, this.resetHandler, {Key? key})
       : super(key: key);

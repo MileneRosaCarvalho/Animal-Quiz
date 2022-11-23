@@ -13,7 +13,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     //Um identificador para a localização de um widget na árvore de widgets.
     return MaterialApp(
-      //O MaterialApp é um widget de conveniência que envolve vários widgets
+      //O MaterialApp é um widget de conveniência que envolve vários widgets.
       theme: ThemeData(primarySwatch: Colors.green),
       home: Scaffold(
         //Um widget responsável por criar um layout “padrão” para o app, contendo uma appBar e o conteúdo da tela.

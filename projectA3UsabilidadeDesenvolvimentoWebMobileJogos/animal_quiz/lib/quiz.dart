@@ -5,6 +5,7 @@ import './answer.dart';
 class Quiz extends StatelessWidget {
   
   final List<Map<String, Object>> data;
+  // Lista de mapas. Ela permite que você insira um conjunto de chaves e valores formando uma estrutura.
   final int indexQuestion;
   final Function answerQuestion;
 

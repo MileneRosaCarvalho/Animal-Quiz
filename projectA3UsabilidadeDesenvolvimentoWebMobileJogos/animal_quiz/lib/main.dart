@@ -15,9 +15,11 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
+  // Sintaxe para declarar parâmetros opcionais,  : super(key: key) é um separador que especifica a lista inicializadora.
 
   @override
   Widget build(BuildContext context) {
+    //Um identificador para a localização de um widget na árvore de widgets.
     return MaterialApp(
       initialRoute: '/',
       routes: {

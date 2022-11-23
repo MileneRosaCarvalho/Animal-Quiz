@@ -72,7 +72,7 @@ class _MinhaPaginaPrincipalState extends State<MinhaPaginaPrincipal> {
     //determina que um método será assíncrono, ou seja, não irá retornar algo imediatamente,
     //então o aplicativo pode continuar a execução de outras tarefas enquanto o processamento não é finalizado.
 
-    //Envolve o armazenamento persistente específico da plataforma para dados simples,Os dados podem ser mantidos no disco de forma assíncrona
+    //Envolve o armazenamento persistente específico da plataforma para dados simples,Os dados podem ser mantidos no disco de forma assíncrona.
 
     SharedPreferences prefs = await SharedPreferences.getInstance();
     //serve para determinar que o aplicativo deve esperar uma resposta de uma função antes de continuar a execução.
@@ -85,10 +85,10 @@ class _MinhaPaginaPrincipalState extends State<MinhaPaginaPrincipal> {
       contadorApp = valorSalvo;
       contadorApp++;
     }
-    //Salvar o contadorApp no armazenamento offline
+    //Salvar o contadorApp no armazenamento offline.
     await prefs.setInt('contadorApp', contadorApp);
 
-    // Como é dinâmico é necessário esse método para atualizar o valor de alguma variável
+    // Como é dinâmico é necessário esse método para atualizar o valor de alguma variável.
     setState(() {
       contadorApp = contadorApp;
     });

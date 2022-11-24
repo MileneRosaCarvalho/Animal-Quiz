@@ -21,7 +21,7 @@ class Result extends StatelessWidget {
           'Você tentou e marcou $score pontos !';
     } else if (score > 10.00 && score <= 25.00) {
       resultText =
-          'Você tentou e marocu $score ponros !';
+          'Você tentou e marcou $score pontos !';
     } else if (score > 25.00 && score <= 40.00) {
       resultText =
           'Você entendeu e marcou $score pontos !';

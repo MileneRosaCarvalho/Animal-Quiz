@@ -48,7 +48,7 @@ class _MinhaPaginaPrincipalState extends State<MinhaPaginaPrincipal> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text(
-                  'Este quiz foi acessado ' +
+                  'Quiz acessado ' +
                       contadorApp.toString() +
                       ' vezes.',
                 ),
